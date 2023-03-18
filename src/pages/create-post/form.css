@@ -1,0 +1,40 @@
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+form{
+    justify-content: center;
+    border:solid rgb(51, 6, 74) 4px;
+    box-shadow: '0 0 10px rgba(0, 0, 2, 0.3)';
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding:30px;
+}
+.heading h1{
+    color: rgb(51, 6, 74) ;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+form input{
+    padding:15px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+form textarea{
+    padding:15px;
+    font-size: 20px;
+    border-radius: 25px;
+    width:250px;
+    height:50px;
+}
+.btn{
+    background-color:rgb(51, 6, 74) ;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.nav{
+    width: 100%;
+    background-color: rgb(51, 6, 74);
+}
+.nav_box{
+ width:85%;
+display: flex;
+justify-content: space-between;
+
+ padding:1% 6%;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+ color:white;
+
+
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap:1.7em;
+margin-right: 10%;
+}
+.links a{
+    color:white;
+    
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.profile-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    color: white;
+}
+button{
+    background-color: white;
+    border-radius: 10px;
+    border: solid white 1px;
+    padding:10px;
+    color:rgb(51, 6, 74) ;
+    font-weight: bold;
+}
